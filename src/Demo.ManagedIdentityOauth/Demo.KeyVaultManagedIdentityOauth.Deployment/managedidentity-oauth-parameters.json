@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "demo3838"
+    },
+    "hostingPlanSkuName": {
+      "value": "F1"
+    },
+    "hostingPlanSkuCapacity": {
+      "value": 1
+    },
+    "appServiceName": {
+      "value": "demo3838"
+    },
+    "sqlServerName": {
+      "value": "demo3838"
+    },
+    "sqlServerAdminLogin": {
+      "value": "asdkfjskdlfjsdklf"
+    },
+    "sqlDatabaseName": {
+      "value": "demo3838"
+    },
+    "sqlDatabaseEdition": {
+      "value": "Basic"
+    },
+    "sqlDatabaseServiceObjectiveName": {
+      "value": "Basic"
+    }
+  }
+}
