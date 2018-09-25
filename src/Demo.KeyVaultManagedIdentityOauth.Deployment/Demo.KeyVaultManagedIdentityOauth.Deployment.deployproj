@@ -23,8 +23,8 @@
   <Import Condition=" Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets') " Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Deployment\1.1\DeploymentProject.targets" />
   <!-- vertag<:>end -->
   <ItemGroup>
-    <Content Include="managedidentity-oauth" />
-    <Content Include="azuredeploy.parameters.json" />
+    <Content Include="managedidentity-oauth.json" />
+    <Content Include="managedidentity-oauth-parameters.json" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
